@@ -1,5 +1,5 @@
 # Mega Stones
- Adds Mega Stones and Mega Evolution to PMDO. By using a Mega Stone, you can Mega Evolve, becoming stronger for a temporary period of time. However, each use of a Mega Stone drains your belly somewhat, so be careful!
+ Adds Mega Stones and Mega Evolution to PMDO. By using a Mega Stone, your team members can Mega Evolve, becoming stronger for a temporary period of time. However, each use of a Mega Stone drains your belly somewhat, so be careful!
 
 ## TODO
  * Refine graphics, adding in the Mega Evolution insignia and changing the lightning to a purple color.
