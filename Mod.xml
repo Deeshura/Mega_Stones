@@ -1,0 +1,10 @@
+<Header>
+  <Name>Mega Stones</Name>
+  <Author>Deeshura</Author>
+  <Description>Adds Mega Stones and Mega Evolution.</Description>
+  <Namespace>megastones</Namespace>
+  <UUID>02DC18D2-74F9-4501-9D98-BE526833006E</UUID>
+  <Version>0.0</Version>
+  <ModType>Mod</ModType>
+  <Relationships />
+</Header>

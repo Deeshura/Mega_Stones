@@ -1,0 +1,94 @@
+﻿{
+"Version": "0.7.16.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"mega_absolite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Absolite",
+"LocalTexts": {
+"fr": "Orbe Platiné",
+"de": "Platinum-Orb",
+"es": "Griseosfera",
+"it": "Grigiosfera",
+"ko": "백금옥",
+"ja": "はっきんだま",
+"ja-jp": "はっきんだま",
+"zh-hans": "白金宝珠",
+"zh-hant": "白金寶珠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_charizardite_x": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Charizardite X",
+"LocalTexts": {
+"fr": "Orbe Platiné",
+"de": "Platinum-Orb",
+"es": "Griseosfera",
+"it": "Grigiosfera",
+"ko": "백금옥",
+"ja": "はっきんだま",
+"ja-jp": "はっきんだま",
+"zh-hans": "白金宝珠",
+"zh-hant": "白金寶珠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_delta_meteorite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Delta Meteorite",
+"LocalTexts": {
+"fr": "Orbe Platiné",
+"de": "Platinum-Orb",
+"es": "Griseosfera",
+"it": "Grigiosfera",
+"ko": "백금옥",
+"ja": "はっきんだま",
+"ja-jp": "はっきんだま",
+"zh-hans": "白金宝珠",
+"zh-hant": "白金寶珠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_mewtwonite_y": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Mewtwonite Y",
+"LocalTexts": {
+"fr": "Orbe Platiné",
+"de": "Platinum-Orb",
+"es": "Griseosfera",
+"it": "Grigiosfera",
+"ko": "백금옥",
+"ja": "はっきんだま",
+"ja-jp": "はっきんだま",
+"zh-hans": "白金宝珠",
+"zh-hant": "白金寶珠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+}
+}
+}

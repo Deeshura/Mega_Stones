@@ -1,0 +1,404 @@
+﻿{
+"Version": "0.7.16.0",
+"Object": {
+"$type": "RogueEssence.Data.ItemData, RogueEssence",
+"Name": {
+"DefaultText": "Delta Meteorite",
+"LocalTexts": {
+"fr": "Orbe Platiné",
+"de": "Platinum-Orb",
+"es": "Griseosfera",
+"it": "Grigiosfera",
+"ko": "백금옥",
+"ja": "はっきんだま",
+"ja-jp": "はっきんだま",
+"zh-hans": "白金宝珠",
+"zh-hant": "白金寶珠"
+}
+},
+"Desc": {
+"DefaultText": "A Meteorite that shines with seven colors of light. It can be used on Rayquaza once per floor to Mega Evolve.",
+"LocalTexts": {
+"fr": "Un orbe éclatant destiné à Giratina. Il lui permet de changer de forme une fois par étage.",
+"zh-hans": "散发着光辉的宝珠。可以在迷宫内对骑拉帝纳使用，以改变形态。"
+}
+},
+"Released": true,
+"Comment": "",
+"Sprite": "Orb_Green",
+"Icon": 9,
+"SortCategory": 13,
+"Price": 800000,
+"Rarity": 0,
+"MaxStack": -1,
+"CannotDrop": false,
+"BagEffect": false,
+"ItemStates": [],
+"GroundUseActions": [],
+"UseAction": {
+"$type": "RogueEssence.Dungeon.SelfAction, RogueEssence",
+"CharAnimData": {
+"$type": "RogueEssence.Dungeon.CharAnimProcess, RogueEssence",
+"Process": 0,
+"AnimOverride": 0
+},
+"TargetAlignments": 1,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"PreActions": [
+{
+"Delay": 20,
+"Sound": "DUN_Zen_Headbutt",
+"Emitter": {
+"$type": "RogueEssence.Content.SingleEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": {
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Circle_Small_Purple_In",
+"FrameTime": 4,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+"Layer": 2,
+"UseDest": false
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+}
+],
+"ActionFX": {
+"Delay": 0,
+"Sound": "Mega_Evolution",
+"Emitter": {
+"$type": "RogueEssence.Content.ListEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": [
+{
+"$type": "RogueEssence.Content.FiniteOverlayEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": {
+"AnimIndex": "Fog_2",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"Movement": {
+"X": 0,
+"Y": 0
+},
+"RepeatX": true,
+"RepeatY": true,
+"FadeIn": 5,
+"FadeOut": 5,
+"TotalTime": 300,
+"Layer": 0,
+"Color": "0, 0, 0, 160"
+},
+{
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Circle_Small_Purple_In",
+"FrameTime": 3,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 6,
+"FrameOffset": 0
+},
+{
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Light_Ball_Purple",
+"FrameTime": 21,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+}
+],
+"Layer": 2,
+"UseDest": false
+},
+"ScreenMovement": {
+"MinShake": 4,
+"MaxShake": 5,
+"MaxShakeTime": 300
+}
+},
+"LagBehindTime": 215
+},
+"Explosion": {
+"TargetAlignments": 1,
+"HitTiles": false,
+"Range": 3,
+"Speed": 2,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"Emitter": {
+"$type": "RogueEssence.Content.CircleSquareAreaEmitter, RogueEssence",
+"LocHeight": 0,
+"Anims": [
+{
+"$type": "RogueEssence.Content.ColumnAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Lightning",
+"FrameTime": 2,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1
+}
+],
+"ParticlesPerTile": 1.0,
+"RangeDiff": -8,
+"Layer": 2
+},
+"IntroFX": [],
+"ExplodeFX": {
+"Delay": 0,
+"Sound": "EVT_Battle_Transition",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+}
+},
+"UseEvent": {
+"Element": "none",
+"Category": 0,
+"HitRate": -1,
+"SkillStates": [],
+"BeforeTryActions": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.CheckItemActiveEvent, PMDC"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.FormChoiceEvent, PMDC",
+"Species": "rayquaza",
+"IncludeTemp": true
+}
+}
+],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeExplosions": [],
+"BeforeHits": [],
+"OnHits": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.SwitchFormEvent, PMDC"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.RestoreBellyEvent, PMDC",
+"BoostAnims": [],
+"Heal": -15,
+"Msg": true,
+"AddMaxBelly": 0,
+"NeedFullBelly": false
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.DeactivateItemEvent, PMDC"
+}
+}
+],
+"OnHitTiles": [],
+"AfterActions": [],
+"ElementEffects": [],
+"IntroFX": [],
+"HitFX": {
+"Delay": 20,
+"Sound": "",
+"Emitter": {
+"$type": "RogueEssence.Content.ListEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": [
+{
+"$type": "RogueEssence.Content.SingleEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": {
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Mega_Background_Red",
+"FrameTime": 2,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 5,
+"FrameOffset": 0
+},
+"Layer": 1,
+"UseDest": false
+}
+],
+"Layer": 2,
+"UseDest": false
+},
+"ScreenMovement": {
+"MinShake": 4,
+"MaxShake": 5,
+"MaxShakeTime": 60
+}
+},
+"HitCharAction": {
+"$type": "RogueEssence.Dungeon.CharAnimProcess, RogueEssence",
+"Process": 0,
+"AnimOverride": 0
+}
+},
+"UsageType": 2,
+"ArcThrow": false,
+"BreakOnThrow": false,
+"ThrowAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"ProximityEvent": {
+"Radius": -1,
+"TargetAlignments": 0,
+"BeforeExplosions": [],
+"OnEquips": [],
+"OnPickups": [],
+"BeforeStatusAdds": [],
+"BeforeStatusAddings": [],
+"OnStatusAdds": [],
+"OnStatusRemoves": [],
+"OnMapStatusAdds": [],
+"OnMapStatusRemoves": [],
+"OnMapStarts": [],
+"OnTurnStarts": [],
+"OnTurnEnds": [],
+"OnMapTurnEnds": [],
+"OnWalks": [],
+"OnDeaths": [],
+"OnRefresh": [],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeHittings": [],
+"BeforeBeingHits": [],
+"AfterHittings": [],
+"AfterBeingHits": [],
+"OnHitTiles": [],
+"AfterActions": [],
+"UserElementEffects": [],
+"TargetElementEffects": [],
+"ModifyHPs": [],
+"RestoreHPs": []
+},
+"OnEquips": [],
+"OnPickups": [],
+"BeforeStatusAdds": [],
+"BeforeStatusAddings": [],
+"OnStatusAdds": [],
+"OnStatusRemoves": [],
+"OnMapStatusAdds": [],
+"OnMapStatusRemoves": [],
+"OnMapStarts": [],
+"OnTurnStarts": [],
+"OnTurnEnds": [],
+"OnMapTurnEnds": [],
+"OnWalks": [],
+"OnDeaths": [],
+"OnRefresh": [],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeHittings": [],
+"BeforeBeingHits": [],
+"AfterHittings": [],
+"AfterBeingHits": [],
+"OnHitTiles": [],
+"AfterActions": [],
+"UserElementEffects": [],
+"TargetElementEffects": [],
+"ModifyHPs": [],
+"RestoreHPs": []
+}
+}
