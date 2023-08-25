@@ -6,4 +6,5 @@
  * Add Mega Stones for all Mega Evolutions. Mega Stones for Mega Evolutions without sprites on spritecollab will be marked as unreleased.
  * Find a way to adjust events for Charizardite X/Y and Mewtwonite X/Y to specifically transform into the corresponding form. Not an issue atm because Charizard Y / Mewtwo X are spriteless (and the code skips unreleased forms), but may be an issue down the line.
  * Add the Red Orb and Blue Orb for Primal Groudon and Primal Kyogre(? *maybe* out of scope, will check)
+ * Whirlwind kb effect? Will study.
  * Localization
