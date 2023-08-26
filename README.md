@@ -8,3 +8,6 @@
  * Add the Red Orb and Blue Orb for Primal Groudon and Primal Kyogre(? *maybe* out of scope, will check)
  * Whirlwind kb effect? Will study.
  * Localization
+
+## Credits
+This project is an addon mod for [PMDO](https://github.com/audinowho/PMDODump). In particular, credits to Audino for adding a boolean to FormChoiceEvent() for temporary forms, and PMDO wiki contributer "IDK"'s articles on [modding moves](https://wiki.pmdo.pmdcollab.org/Creating_Moves) thanks to the useful emitter documentation there.
