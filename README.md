@@ -11,4 +11,8 @@
  * Localization
 
 ## Credits
-This project is an addon mod for [PMDO](https://github.com/audinowho/PMDODump). In particular, credits to Audino for adding a boolean to FormChoiceEvent() for temporary forms, and PMDO wiki contributer "IDK"'s articles on [modding moves](https://wiki.pmdo.pmdcollab.org/Creating_Moves) thanks to the useful emitter documentation there.
+Inventory and item icons by Ryveriel.
+
+This project is an addon mod for [PMDO](https://github.com/audinowho/PMDODump). PMDO is Copyright (c) Audino 2021.
+
+Furthermore, special thanks to Audino for adding a boolean to FormChoiceEvent() for temporary forms, and PMDO wiki contributer "IDK"'s articles on [modding moves](https://wiki.pmdo.pmdcollab.org/Creating_Moves) thanks to the useful emitter documentation there.
