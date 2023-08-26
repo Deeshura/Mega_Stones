@@ -5,7 +5,7 @@
  * Make it so that *either* you can't transform back by using the item again, or at least doing so doesn't consume hunger like it would when transforming.
  * Refine graphics, adding in the Mega Evolution insignia and changing the lightning to a purple color.
  * Add Mega Stones for all Mega Evolutions. Mega Stones for Mega Evolutions without sprites on spritecollab will be marked as unreleased.
- * Find a way to adjust events for Charizardite X/Y and Mewtwonite X/Y to specifically transform into the corresponding form. Not an issue atm because Charizard Y / Mewtwo X are spriteless (and the code skips unreleased forms), but may be an issue down the line.
+ * Find a way to adjust events for Charizardite X/Y and Mewtwonite X/Y to specifically transform into the corresponding form. Not an issue atm because Charizard Y / Mewtwo X are spriteless (and the code skips unreleased forms), but may be an issue down the line. Alternatively, instead of seperate Mega Stones, just have one combined stone and take advantage of the FormChoice menu.
  * Add the Red Orb and Blue Orb for Primal Groudon and Primal Kyogre(? *maybe* out of scope, will check)
  * Whirlwind kb effect? Will study.
  * Localization
