@@ -25,7 +25,7 @@
 },
 "Released": true,
 "Comment": "",
-"Sprite": "Orb_DarkBlue",
+"Sprite": "MegaStone",
 "Icon": 9,
 "SortCategory": 13,
 "Price": 800000,
@@ -228,9 +228,9 @@
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.FormChoiceEvent, PMDC",
-"Species": "absol",
-"IncludeTemp": true
+"$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
+"Script": "MegaIfNotMegaEvent",
+"ArgTable": "{}"
 }
 }
 ],
