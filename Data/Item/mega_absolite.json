@@ -230,7 +230,7 @@
 "Value": {
 "$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
 "Script": "MegaIfNotMegaEvent",
-"ArgTable": "{}"
+"ArgTable": "{absol}"
 }
 }
 ],
