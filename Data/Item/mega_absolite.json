@@ -229,8 +229,20 @@
 },
 "Value": {
 "$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
-"Script": "MegaIfNotMegaEvent",
-"ArgTable": "{absol}"
+"Script": "CancelIfMegaEvent",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.FormChoiceEvent, PMDC",
+"Species": "absol",
+"IncludeTemp": true
 }
 }
 ],
