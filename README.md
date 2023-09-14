@@ -3,6 +3,10 @@
 
 ## TODO
  * Whirlwind kb effect? Will study. Likely needs to be done with a battlescript.
+   * Definitely needs battlescript that does two things;
+   * Collects targets in a 1-tile radius, friends and foes.
+   * Initiates a knockback effect against them, with the mega evolver as the user.
+   * How do I do that? Good question...
  * Refine graphics, adding in the Mega Evolution insignia and changing the lightning to a purple color.
  * Implement Ryveriel's inventory icon through font modding. See: adding types tutorial.
  * Add Mega Stones for all Mega Evolutions. Mega Stones for Mega Evolutions without sprites on spritecollab will be marked as unreleased.
