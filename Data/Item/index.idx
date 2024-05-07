@@ -1,9 +1,10 @@
 ﻿{
-"Version": "0.7.17.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "mega_absolite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
 "UsageType": 2,
 "States": [],
 "Name": {
@@ -26,6 +27,7 @@
 },
 "mega_charizardite_x": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
 "UsageType": 2,
 "States": [],
 "Name": {
@@ -48,6 +50,7 @@
 },
 "mega_delta_meteorite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
 "UsageType": 2,
 "States": [],
 "Name": {
@@ -70,6 +73,7 @@
 },
 "mega_mewtwonite_y": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
 "UsageType": 2,
 "States": [],
 "Name": {

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.17.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -214,7 +214,7 @@
 {
 "Key": {
 "str": [
-0
+-2
 ]
 },
 "Value": {
@@ -224,7 +224,7 @@
 {
 "Key": {
 "str": [
-0
+-1
 ]
 },
 "Value": {
@@ -254,11 +254,29 @@
 {
 "Key": {
 "str": [
-0
+-2
 ]
 },
 "Value": {
 "$type": "PMDC.Dungeon.SwitchFormEvent, PMDC"
+}
+},
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "mega_evolved",
+"AffectTarget": false,
+"SilentCheck": true,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
 }
 },
 {
@@ -279,18 +297,7 @@
 {
 "Key": {
 "str": [
-0
-]
-},
-"Value": {
-"$type": "PMDC.Dungeon.LaunchAllEvent, PMDC",
-"Distance": 4
-}
-},
-{
-"Key": {
-"str": [
-0
+1
 ]
 },
 "Value": {
