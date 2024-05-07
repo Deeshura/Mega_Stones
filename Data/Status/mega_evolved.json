@@ -89,20 +89,7 @@
 "BeforeStatusAdds": [],
 "BeforeStatusAddings": [],
 "OnStatusAdds": [],
-"OnStatusRemoves": [
-{
-"Key": {
-"str": [
--30
-]
-},
-"Value": {
-"$type": "RogueEssence.Dungeon.StatusScriptEvent, RogueEssence",
-"Script": "Mega_Devolve",
-"ArgTable": "{}"
-}
-}
-],
+"OnStatusRemoves": [],
 "OnMapStatusAdds": [],
 "OnMapStatusRemoves": [],
 "OnMapStarts": [],

@@ -232,18 +232,6 @@
 "Script": "CancelIfMegaEvent",
 "ArgTable": "{}"
 }
-},
-{
-"Key": {
-"str": [
-0
-]
-},
-"Value": {
-"$type": "PMDC.Dungeon.FormChoiceEvent, PMDC",
-"Species": "absol",
-"IncludeTemp": true
-}
 }
 ],
 "BeforeActions": [],
@@ -258,7 +246,9 @@
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.SwitchFormEvent, PMDC"
+"$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
+"Script": "Mega_Evolve",
+"ArgTable": "{}"
 }
 },
 {
