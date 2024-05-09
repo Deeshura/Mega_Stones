@@ -3,14 +3,14 @@
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
-"DefaultText": "Absolite",
+"DefaultText": "Mewtwonite X",
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "One variety of the mysterious Mega Stones. It can be used on Absol once per floor to Mega Evolve.",
+"DefaultText": "One variety of the mysterious Mega Stones. It can be used on Mewtwo once per floor to Mega Evolve.",
 "LocalTexts": {}
 },
-"Released": true,
+"Released": false,
 "Comment": "",
 "Sprite": "MegaStone",
 "Icon": 9,
@@ -217,7 +217,7 @@
 "Value": {
 "$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
 "Script": "CancelIfWrongMon",
-"ArgTable": "{\"absol\"}"
+"ArgTable": "{\"mewtwo\"}"
 }
 },
 {

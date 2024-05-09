@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Exposition_001" xml:space="preserve">
+    <value>Hmmmm...[pause=0] I have to admit,[pause=5] it's not looking good.</value>
+  </data>
+  <data name="Exposition_002" xml:space="preserve">
+    <value>Even if we buried them here,[pause=5] we'd not get very far without any money to our name.</value>
+  </data>
+  <data name="Exposition_003" xml:space="preserve">
+    <value>I'd hate to leave you both here whilst I'm scrounging up cash in a dungeon,[pause=5] but-</value>
+  </data>
+  <data name="Exposition_004" xml:space="preserve">
+    <value>Wha-[pause=10] [emote=Angry]Who are you!?[pause=0] How did you find this place!?</value>
+  </data>
+  <data name="Exposition_005" xml:space="preserve">
+    <value>You've got five seconds before I blast you apart![pause=0] Five...</value>
+  </data>
+  <data name="Exposition_006" xml:space="preserve">
+    <value>Mother,[pause=5] wait![pause=0] Perhaps this is what we needed!</value>
+  </data>
+  <data name="Exposition_007" xml:space="preserve">
+    <value>Hrm!?[pause=0] ...Tcht.[pause=0] One moment then,[pause=5] intruder.</value>
+  </data>
+  <data name="Exposition_008" xml:space="preserve">
+    <value>*mumble* *mumble*[pause=0] *whisper* *whisper*</value>
+  </data>
+  <data name="Exposition_009" xml:space="preserve">
+    <value>Always the voices of reason,[pause=5] you two...</value>
+  </data>
+  <data name="Exposition_010" xml:space="preserve">
+    <value>I'm so sorry about that.[pause=0] I've been a bit on edge recently,[pause=5] you see...</value>
+  </data>
+  <data name="Shop_Info_001" xml:space="preserve">
+    <value>Mega Stones are powerful gemstones that allow Pokémon to undergo Mega Evolution!</value>
+  </data>
+  <data name="Shop_Info_002" xml:space="preserve">
+    <value>But be careful![pause=0] They put a heavy strain on the body,[pause=5] so don't use them on an empty stomach!</value>
+  </data>
+  <data name="Shop_Info_003" xml:space="preserve">
+    <value>Hm?[pause=0] You're asking where I got these?</value>
+  </data>
+  <data name="Shop_Info_004" xml:space="preserve">
+    <value>...Trade secret.</value>
+  </data>
+  <data name="Shop_Bag_Full" xml:space="preserve">
+    <value>I would love to sell you that,[pause=5] but I'm afraid it won't fit in your bag...</value>
+  </data>
+  <data name="Shop_Buy" xml:space="preserve">
+    <value>Excellent![pause=0] Tell me if you see something you like! (You can use {0} to choose multiple items.)</value>
+  </data>
+  <data name="Shop_Buy_Complete" xml:space="preserve">
+    <value>Please doing business with you,[pause=5] friend!</value>
+  </data>
+  <data name="Shop_Buy_Empty" xml:space="preserve">
+    <value>I'm afraid I'm sold out,[pause=5] friend.[pause=0] Maybe check back in another time?</value>
+  </data>
+  <data name="Shop_Buy_Multi" xml:space="preserve">
+    <value>All of those Stones will be {0}. That OK?</value>
+  </data>
+  <data name="Shop_Buy_No_Money" xml:space="preserve">
+    <value>You trying to fleece me?![pause=0] If you've not got the cash,[pause=5] then scram!</value>
+  </data>
+  <data name="Shop_Buy_One" xml:space="preserve">
+    <value>The {1}? That'll be {0}.</value>
+  </data>
+  <data name="Shop_Goodbye" xml:space="preserve">
+    <value>Thank you kindly![pause=5] Remember, it's a secret to everybody!</value>
+  </data>
+  <data name="Shop_Intro" xml:space="preserve">
+    <value>Welcome,[pause=5] friend! How may I help you?</value>
+  </data>
+  <data name="Shop_Intro_Return" xml:space="preserve">
+    <value>Is there anything else you need?</value>
+  </data>
+  <data name="Shop_Option_Buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="Shop_Option_Sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Shop_Sell" xml:space="preserve">
+    <value>Sorry,[pause=5] but I'm not running a pawn shop here... Maybe a Kecleon could take that off your hands?</value>
+  </data>
+  <data name="Exposition_011" xml:space="preserve">
+    <value>Allow me to introduce myself.[pause=0] I'm {0}, and I'm running a small business here.
+</value>
+  </data>
+  <data name="Exposition_012" xml:space="preserve">
+    <value>You're one of those adventurer's trying to climb to the summit, no?[pause=0] Got an eye for treasure,[pause=5] perhaps?</value>
+  </data>
+  <data name="Exposition_013" xml:space="preserve">
+    <value>Then friend,[pause=5] do I have a deal for you!</value>
+  </data>
+  <data name="Exposition_014" xml:space="preserve">
+    <value>How would you feel if you were to own your very[pause=30] own[pause=30] Mega Stone?</value>
+  </data>
+  <data name="Exposition_015" xml:space="preserve">
+    <value>You... don't know what a Mega Stone is?[pause=0] [script=0]Uh...</value>
+  </data>
+  <data name="Exposition_016" xml:space="preserve">
+    <value>Well,[pause=5] to keep it brief,[pause=5] they're gemstones infused with a mysterious power...
+</value>
+  </data>
+  <data name="Exposition_017" xml:space="preserve">
+    <value>One that will allow the right Pokémon to Mega Evolve![pause=0] Imagine evolving even further beyond your limits!</value>
+  </data>
+  <data name="Exposition_018" xml:space="preserve">
+    <value>Now these Stones aren't what I'd call "common"... but for you?[pause=0] I can cut you the deal of a lifetime!</value>
+  </data>
+  <data name="Exposition_019" xml:space="preserve">
+    <value>So what do you say,[pause=5] friend?[pause=0] Care to make a deal?[pause=0] My little shop is now open,[pause=5] for your eyes only!
+</value>
+  </data>
+</root>

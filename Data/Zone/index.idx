@@ -1,0 +1,33 @@
+﻿{
+"Version": "0.8.0.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"shady_shop": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [
+"shady_shop"
+],
+"Maps": [],
+"Name": {
+"DefaultText": "Shady Shop",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "The Mega Stone store. No dungeons, just a ground map.",
+"SortOrder": 0
+}
+}
+}

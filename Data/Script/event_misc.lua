@@ -6,3 +6,4 @@ function STATUS_SCRIPT.Mega_Devolve(owner, ownerChar, context, args)
 	context.User:RestoreForm()
 	_DUNGEON:LogMsg(RogueEssence.Text.FormatGrammar(RogueEssence.StringKey("MSG_FORM_CHANGE"):ToLocal(), context.User:GetDisplayName(false)))
 end
+

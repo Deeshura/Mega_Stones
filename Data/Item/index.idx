@@ -2,6 +2,19 @@
 "Version": "0.8.0.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"mega_abomasite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Abomasite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
 "mega_absolite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
 "Icon": 9,
@@ -9,17 +22,150 @@
 "States": [],
 "Name": {
 "DefaultText": "Absolite",
-"LocalTexts": {
-"fr": "Orbe Platiné",
-"de": "Platinum-Orb",
-"es": "Griseosfera",
-"it": "Grigiosfera",
-"ko": "백금옥",
-"ja": "はっきんだま",
-"ja-jp": "はっきんだま",
-"zh-hans": "白金宝珠",
-"zh-hant": "白金寶珠"
-}
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_aerodactylite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Aerodactylite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_aggronite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Aggronite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_alakazite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Alakazite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_altarianite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Altarianite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_ampharosite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Ampharosite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_audinite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Audinite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_banettite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Banettite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_beedrillite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Beedrillite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_blastoisinite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Blastoisinite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_blazikenite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Blazikenite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_cameruptite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Cameruptite",
+"LocalTexts": {}
 },
 "Released": true,
 "Comment": "",
@@ -27,70 +173,456 @@
 },
 "mega_charizardite_x": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
-"Icon": 0,
+"Icon": 9,
 "UsageType": 2,
 "States": [],
 "Name": {
 "DefaultText": "Charizardite X",
-"LocalTexts": {
-"fr": "Orbe Platiné",
-"de": "Platinum-Orb",
-"es": "Griseosfera",
-"it": "Grigiosfera",
-"ko": "백금옥",
-"ja": "はっきんだま",
-"ja-jp": "はっきんだま",
-"zh-hans": "白金宝珠",
-"zh-hant": "白金寶珠"
-}
+"LocalTexts": {}
 },
 "Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_charizardite_y": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Charizardite Y",
+"LocalTexts": {}
+},
+"Released": false,
 "Comment": "",
 "SortOrder": 13
 },
 "mega_delta_meteorite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
-"Icon": 0,
+"Icon": 9,
 "UsageType": 2,
 "States": [],
 "Name": {
 "DefaultText": "Delta Meteorite",
-"LocalTexts": {
-"fr": "Orbe Platiné",
-"de": "Platinum-Orb",
-"es": "Griseosfera",
-"it": "Grigiosfera",
-"ko": "백금옥",
-"ja": "はっきんだま",
-"ja-jp": "はっきんだま",
-"zh-hans": "白金宝珠",
-"zh-hant": "白金寶珠"
-}
+"LocalTexts": {}
 },
 "Released": true,
 "Comment": "",
 "SortOrder": 13
 },
+"mega_diancite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Diancite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_galladite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Galladite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_garchompite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Garchompite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_gardevoirite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Gardevoirite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_gengarite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Gengarite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_glalitite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Glalitite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_gyaradosite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Gyaradosite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_heracronite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Heracronite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_houndoominite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Houndoominite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_kangaskhanite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Kangaskhanite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_latiasite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Latiasite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_latiosite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Latiosite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_lopunnite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Lopunnite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_lucarionite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Lucarionite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_manectite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Manectite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_mawilite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Mawilite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_medichamite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Medichamite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_metagrossite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Metagrossite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_mewtwonite_x": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Mewtwonite X",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
 "mega_mewtwonite_y": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
-"Icon": 0,
+"Icon": 9,
 "UsageType": 2,
 "States": [],
 "Name": {
 "DefaultText": "Mewtwonite Y",
-"LocalTexts": {
-"fr": "Orbe Platiné",
-"de": "Platinum-Orb",
-"es": "Griseosfera",
-"it": "Grigiosfera",
-"ko": "백금옥",
-"ja": "はっきんだま",
-"ja-jp": "はっきんだま",
-"zh-hans": "白金宝珠",
-"zh-hant": "白金寶珠"
-}
+"LocalTexts": {}
 },
 "Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_pidgeotite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Pidgeotite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_pinsirite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Pinsirite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_sablenite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Sablenite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_salamencite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Salamencite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_sceptilite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Sceptilite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_scizorite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Scizorite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_sharpedonite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Sharpedonite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_slowbronite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Slowbronite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_steelixite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Steelixite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_swampertite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Swampertite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_tyranitarite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Tyranitarite",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 13
+},
+"mega_venusaurite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 9,
+"UsageType": 2,
+"States": [],
+"Name": {
+"DefaultText": "Venusaurite",
+"LocalTexts": {}
+},
+"Released": false,
 "Comment": "",
 "SortOrder": 13
 }

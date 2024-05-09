@@ -1,37 +1,24 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
 "DefaultText": "Mewtwonite Y",
-"LocalTexts": {
-"fr": "Orbe Platiné",
-"de": "Platinum-Orb",
-"es": "Griseosfera",
-"it": "Grigiosfera",
-"ko": "백금옥",
-"ja": "はっきんだま",
-"ja-jp": "はっきんだま",
-"zh-hans": "白金宝珠",
-"zh-hant": "白金寶珠"
-}
+"LocalTexts": {}
 },
 "Desc": {
 "DefaultText": "One variety of the mysterious Mega Stones. It can be used on Mewtwo once per floor to Mega Evolve.",
-"LocalTexts": {
-"fr": "Un orbe éclatant destiné à Giratina. Il lui permet de changer de forme une fois par étage.",
-"zh-hans": "散发着光辉的宝珠。可以在迷宫内对骑拉帝纳使用，以改变形态。"
-}
+"LocalTexts": {}
 },
 "Released": true,
 "Comment": "",
 "Sprite": "MegaStone",
 "Icon": 9,
 "SortCategory": 13,
-"Price": 800000,
+"Price": -1,
 "Rarity": 0,
 "MaxStack": -1,
-"CannotDrop": false,
+"CannotDrop": true,
 "BagEffect": false,
 "ItemStates": [],
 "GroundUseActions": [],
@@ -214,7 +201,7 @@
 {
 "Key": {
 "str": [
-0
+-2
 ]
 },
 "Value": {
@@ -224,13 +211,25 @@
 {
 "Key": {
 "str": [
+-1
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
+"Script": "CancelIfWrongMon",
+"ArgTable": "{\"mewtwo\"}"
+}
+},
+{
+"Key": {
+"str": [
 0
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.FormChoiceEvent, PMDC",
-"Species": "mewtwo",
-"IncludeTemp": true
+"$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
+"Script": "CancelIfMegaEvent",
+"ArgTable": "{}"
 }
 }
 ],
@@ -242,11 +241,31 @@
 {
 "Key": {
 "str": [
-0
+-2
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.SwitchFormEvent, PMDC"
+"$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
+"Script": "Mega_Evolve_Y",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "mega_evolved",
+"AffectTarget": false,
+"SilentCheck": true,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
 }
 },
 {
@@ -267,7 +286,7 @@
 {
 "Key": {
 "str": [
-0
+1
 ]
 },
 "Value": {

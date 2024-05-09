@@ -9,6 +9,14 @@ AnchorStateType = luanet.import_type('PMDC.Dungeon.AnchorState')
 			context.CancelState.Cancel = true
 		end
 	end
+
+	
+    function BATTLE_SCRIPT.CancelIfWrongMon(owner, ownerChar, context, args) --
+		if (context.User.BaseForm.Species ~= table.concat(args)) then
+			_DUNGEON:LogMsg(RogueEssence.Text.FormatGrammar(RogueEssence.StringKey("MSG_ITEM_NO_EFFECT"):ToLocal(), context.User:GetDisplayName(true))) --credits to Trio- for being way smarter than i am
+			context.CancelState.Cancel = true
+		end
+	end
 	
 	function BATTLE_SCRIPT.Mega_Evolve(owner, ownerChar, context, args)
 		mega = RogueEssence.Dungeon.MonsterID(context.User.BaseForm.Species, 1, context.User.BaseForm.Skin, context.User.BaseForm.Gender)
