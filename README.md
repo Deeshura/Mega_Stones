@@ -1,6 +1,8 @@
 # Mega Stones
  Adds Mega Stones and Mega Evolution to PMDO. By using a Mega Stone, your team members can Mega Evolve, becoming stronger until you progress to the next floor. However, each use of a Mega Stone drains your belly somewhat, so be careful!
 
+ For those looking to obtain these Mega Stones, there's rumors about of a mysterious Pokémon seen sneaking into a cave on the outskirts of Overgrown Wilds...
+
 ## TODO
  * Localization.
  * Adding in new Mega Stones as they're released.
