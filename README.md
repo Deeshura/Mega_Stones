@@ -13,7 +13,7 @@ Item icons by Ryveriel.
 
 Thanks to Trio- for translating FormChoiceEvent's C# script for calling CancelState into lua, and correcting my syntax.
 
-Thanks to FlowerSnek for helping me debug an issue I was having with a cutscene.
+Thanks to FlowerSnek, Palika, and Sh\*tpost Sunkern for valuable feedback on a cutscene.
 
 Thanks to MistressNebula for helping work out a system for devolving the player between floors.
 
