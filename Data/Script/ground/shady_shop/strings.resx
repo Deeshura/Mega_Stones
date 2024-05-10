@@ -134,17 +134,17 @@
     <value>Buy</value>
   </data>
   <data name="Shop_Option_Sell" xml:space="preserve">
-    <value>Sell</value>
+    <value>Sell?</value>
   </data>
   <data name="Shop_Sell" xml:space="preserve">
-    <value>Sorry,[pause=5] but I'm not running a pawn shop here... Maybe a Kecleon could take that off your hands?</value>
+    <value>Sorry,[pause=5] but I'm not running a pawn shop here... Maybe a {0} could take that off your hands?</value>
   </data>
   <data name="Exposition_011" xml:space="preserve">
     <value>Allow me to introduce myself.[pause=0] I'm {0}, and I'm running a small business here.
 </value>
   </data>
   <data name="Exposition_012" xml:space="preserve">
-    <value>You're one of those adventurer's trying to climb to the summit, no?[pause=0] Got an eye for treasure,[pause=5] perhaps?</value>
+    <value>You're one of those adventurers trying to climb to the summit, no?[pause=0] Got an eye for treasure,[pause=5] perhaps?</value>
   </data>
   <data name="Exposition_013" xml:space="preserve">
     <value>Then friend,[pause=5] do I have a deal for you!</value>

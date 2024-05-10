@@ -90,6 +90,7 @@ function shady_shop.Exposition()
   local pult_y = pult.Position.Y
 
   GROUND:TeleportTo(pult, 775, 153, Dir8.UpRight, 0)
+  GROUND:CharSetAnim(pult, "Idle", true)
   GAME:MoveCamera(500, 184, 1, false)
 
   --title drop
@@ -114,6 +115,8 @@ function shady_shop.Exposition()
 
   GAME:MoveCamera(755, 184, 150, false)
 
+  GAME:WaitFrames(30)
+
   --pult mumbling to herself
 
   UI:SetSpeaker(pult)
@@ -125,6 +128,7 @@ function shady_shop.Exposition()
   UI:SetSpeakerReverse(true)
   UI:WaitShowTimedDialogue(STRINGS:Format(MapStrings['Exposition_003']), 10)
   GROUND:EntTurn(pult,Dir8.Left)
+  GAME:WaitFrames(3)
   GROUND:CharSetEmote(pult, 'shock', 1)
   SOUND:PlayBattleSE('EVT_Emote_Shock')
   GAME:WaitFrames(3)
@@ -140,12 +144,16 @@ function shady_shop.Exposition()
   UI:SetSpeakerReverse(true)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Exposition_005']))
 
+  GAME:WaitFrames(10)
+
   GROUND:CharSetEmote(pult, 'notice', 1)
   SOUND:PlayBattleSE('EVT_Emote_Exclaim')
   UI:SetSpeaker(dreepy)
   UI:SetSpeakerEmotion("Normal")
   UI:SetSpeakerReverse(true)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Exposition_006']))
+
+  GAME:WaitFrames(10)
 
   UI:SetSpeaker(pult)
   UI:SetSpeakerEmotion("Determined")
@@ -174,7 +182,7 @@ function shady_shop.Exposition()
 
   UI:SetSpeakerEmotion("Normal")
   UI:SetSpeakerReverse(true)
-  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Exposition_011'], _DATA:GetMonster("dragapult"):GetColoredName())) --ty flowersnekkkkkkk
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Exposition_011'], CH('NPC_Shady'):GetDisplayName())) --ty flowersnekkkkkkk
 
   UI:SetSpeakerEmotion("Happy")
   UI:SetSpeakerReverse(true)
@@ -224,6 +232,7 @@ function shady_shop.Exposition()
     function()
       GROUND:MoveToPosition(pult, pult_x, pult_y, false, 1)
       GROUND:CharTurnToCharAnimated(pult, player, 3)
+      GROUND:CharSetAnim(pult, "Idle", true)
     end
   )
 
@@ -347,7 +356,7 @@ function shady_shop.NPC_Shady_Action(obj, activator)
 				end
 			elseif result == 2 then
         UI:SetSpeakerEmotion("Pain")
-        UI:WaitShowDialogue(STRINGS:Format(MapStrings['Shop_Sell']))
+        UI:WaitShowDialogue(STRINGS:Format(MapStrings['Shop_Sell'], _DATA:GetMonster("kecleon"):GetColoredName()))
         UI:SetSpeakerEmotion("Normal")
 			elseif result == 3 then
         UI:SetSpeakerEmotion("Joyous")
