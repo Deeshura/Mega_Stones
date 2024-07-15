@@ -1,4 +1,4 @@
-BATTLE_SCRIPT = {}
+
 
 AnchorStateType = luanet.import_type('PMDC.Dungeon.AnchorState')
 
