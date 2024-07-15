@@ -1,3 +1,5 @@
+![mega_evolution](https://github.com/Deeshura/Mega_Stones/blob/main/Github_Assets/mega_stones.gif?raw=true)
+
 # Mega Stones
  Adds Mega Stones and Mega Evolution to PMDO. By using a Mega Stone, your team members can Mega Evolve, becoming stronger until you progress to the next floor. However, each use of a Mega Stone drains your belly somewhat, so be careful!
 
