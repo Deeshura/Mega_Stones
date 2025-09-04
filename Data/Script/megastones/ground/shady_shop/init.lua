@@ -270,6 +270,7 @@ function shady_shop.NPC_Shady_Action(obj, activator)
   local repeated = false
   local cart = {}
   local catalog = { }
+  --base stones add
   local stones = {{Index = 'mega_abomasite', Amount = 0, Price = 10000},
                   {Index = 'mega_absolite', Amount = 0, Price = 10000},
                   {Index = 'mega_aerodactylite', Amount = 0, Price = 10000},
@@ -285,7 +286,6 @@ function shady_shop.NPC_Shady_Action(obj, activator)
                   {Index = 'mega_cameruptite', Amount = 0, Price = 10000},
                   {Index = 'mega_charizardite_x', Amount = 0, Price = 10000},
                   {Index = 'mega_charizardite_y', Amount = 0, Price = 10000},
-                  {Index = 'mega_diancite', Amount = 0, Price = 10000},
                   {Index = 'mega_galladite', Amount = 0, Price = 10000},
                   {Index = 'mega_garchompite', Amount = 0, Price = 10000},
                   {Index = 'mega_gardevoirite', Amount = 0, Price = 10000},
@@ -320,7 +320,23 @@ function shady_shop.NPC_Shady_Action(obj, activator)
       table.insert(catalog, item_data)
     end
   end
-
+--[[   --special stones (order is important!)
+  local special_stones = {{Index = 'mega_delta_meteorite', Amount = 0, Price = 100000},
+                          --{Index = 'mega_mewtwonite_x', Amount = 0, Price = 100000}, --not available yet
+                          {Index = 'mega_mewtwonite_y', Amount = 0, Price = 100000},
+                          {Index = 'mega_latiosite', Amount = 0, Price = 100000},
+                          {Index = 'mega_latiasite', Amount = 0, Price = 100000},
+                          {Index = 'mega_diancite', Amount = 0, Price = 100000}}
+  ---assembly lookup
+  local assembly = GAME:GetPlayerAssemblyTable()
+  ---add stones
+  for ii = 1, #special_stones, 1 do
+    local base_data = stones[ii]
+    local item_data = { Item = RogueEssence.Dungeon.InvItem(base_data.Index, false, base_data.Amount), Price = base_data.Price }
+    if _DATA:GetItem(base_data.Index).Released then
+      table.insert(catalog, item_data)
+    end
+  end ]]
 
   local chara = CH('NPC_Shady')
   local player = CH('PLAYER')
