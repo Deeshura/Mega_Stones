@@ -8,7 +8,6 @@
 ## TODO
  * Localization.
  * Adding in new Mega Stones as they're released.
- * Marking Mega Stones as "released" as new Mega Evolutions recieve sprites.
 
 ## Credits
 Item icons by Ryveriel.
