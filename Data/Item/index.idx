@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.2.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "mega_abomasite": {
@@ -7,6 +7,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Abomasite",
 "LocalTexts": {}
@@ -20,6 +23,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Absolite",
 "LocalTexts": {}
@@ -33,11 +39,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Aerodactylite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -46,6 +55,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Aggronite",
 "LocalTexts": {}
@@ -59,11 +71,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Alakazite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -72,6 +87,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Altarianite",
 "LocalTexts": {}
@@ -85,6 +103,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Ampharosite",
 "LocalTexts": {}
@@ -98,6 +119,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Audinite",
 "LocalTexts": {}
@@ -111,6 +135,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Banettite",
 "LocalTexts": {}
@@ -124,6 +151,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Beedrillite",
 "LocalTexts": {}
@@ -137,6 +167,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Blastoisinite",
 "LocalTexts": {}
@@ -150,6 +183,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Blazikenite",
 "LocalTexts": {}
@@ -163,6 +199,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Cameruptite",
 "LocalTexts": {}
@@ -176,6 +215,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Charizardite X",
 "LocalTexts": {}
@@ -189,6 +231,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Charizardite Y",
 "LocalTexts": {}
@@ -202,6 +247,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Delta Meteorite",
 "LocalTexts": {}
@@ -215,11 +263,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Diancite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -228,6 +279,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Galladite",
 "LocalTexts": {}
@@ -241,6 +295,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Garchompite",
 "LocalTexts": {}
@@ -254,6 +311,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Gardevoirite",
 "LocalTexts": {}
@@ -267,11 +327,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Gengarite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -280,11 +343,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Glalitite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -293,6 +359,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Gyaradosite",
 "LocalTexts": {}
@@ -306,6 +375,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Heracronite",
 "LocalTexts": {}
@@ -319,6 +391,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Houndoominite",
 "LocalTexts": {}
@@ -332,6 +407,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Kangaskhanite",
 "LocalTexts": {}
@@ -345,11 +423,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Latiasite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -358,11 +439,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Latiosite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -371,6 +455,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Lopunnite",
 "LocalTexts": {}
@@ -384,11 +471,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Lucarionite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -397,11 +487,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Manectite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -410,11 +503,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Mawilite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -423,11 +519,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Medichamite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -436,6 +535,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Metagrossite",
 "LocalTexts": {}
@@ -449,6 +551,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Mewtwonite X",
 "LocalTexts": {}
@@ -462,6 +567,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Mewtwonite Y",
 "LocalTexts": {}
@@ -475,6 +583,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Pidgeotite",
 "LocalTexts": {}
@@ -488,6 +599,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Pinsirite",
 "LocalTexts": {}
@@ -501,6 +615,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Sablenite",
 "LocalTexts": {}
@@ -514,6 +631,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Salamencite",
 "LocalTexts": {}
@@ -527,6 +647,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Sceptilite",
 "LocalTexts": {}
@@ -540,6 +663,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Scizorite",
 "LocalTexts": {}
@@ -553,6 +679,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Sharpedonite",
 "LocalTexts": {}
@@ -566,6 +695,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Slowbronite",
 "LocalTexts": {}
@@ -579,11 +711,14 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Steelixite",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 13
 },
@@ -592,6 +727,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Swampertite",
 "LocalTexts": {}
@@ -605,6 +743,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Tyranitarite",
 "LocalTexts": {}
@@ -618,6 +759,9 @@
 "Icon": 9,
 "UsageType": 2,
 "States": [],
+"MaxStack": -1,
+"CannotDrop": true,
+"BagEffect": false,
 "Name": {
 "DefaultText": "Venusaurite",
 "LocalTexts": {}

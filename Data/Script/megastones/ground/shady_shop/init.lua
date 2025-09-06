@@ -271,72 +271,76 @@ function shady_shop.NPC_Shady_Action(obj, activator)
   local cart = {}
   local catalog = { }
   --base stones add
-  local stones = {{Index = 'mega_abomasite', Amount = 0, Price = 10000},
-                  {Index = 'mega_absolite', Amount = 0, Price = 10000},
-                  {Index = 'mega_aerodactylite', Amount = 0, Price = 10000},
-                  {Index = 'mega_aggronite', Amount = 0, Price = 10000},
-                  {Index = 'mega_alakazite', Amount = 0, Price = 10000},
-                  {Index = 'mega_altarianite', Amount = 0, Price = 10000},
-                  {Index = 'mega_ampharosite', Amount = 0, Price = 10000},
-                  {Index = 'mega_audinite', Amount = 0, Price = 10000},
-                  {Index = 'mega_banettite', Amount = 0, Price = 10000},
-                  {Index = 'mega_beedrillite', Amount = 0, Price = 10000},
-                  {Index = 'mega_blastoisinite', Amount = 0, Price = 10000},
-                  {Index = 'mega_blazikenite', Amount = 0, Price = 10000},
-                  {Index = 'mega_cameruptite', Amount = 0, Price = 10000},
-                  {Index = 'mega_charizardite_x', Amount = 0, Price = 10000},
-                  {Index = 'mega_charizardite_y', Amount = 0, Price = 10000},
-                  {Index = 'mega_galladite', Amount = 0, Price = 10000},
-                  {Index = 'mega_garchompite', Amount = 0, Price = 10000},
-                  {Index = 'mega_gardevoirite', Amount = 0, Price = 10000},
-                  {Index = 'mega_gengarite', Amount = 0, Price = 10000},
-                  {Index = 'mega_glalitite', Amount = 0, Price = 10000},
-                  {Index = 'mega_gyaradosite', Amount = 0, Price = 10000},
-                  {Index = 'mega_heracronite', Amount = 0, Price = 10000},
-                  {Index = 'mega_houndoominite', Amount = 0, Price = 10000},
-                  {Index = 'mega_kangaskhanite', Amount = 0, Price = 10000},
-                  {Index = 'mega_lopunnite', Amount = 0, Price = 10000},
-                  {Index = 'mega_lucarionite', Amount = 0, Price = 10000},
-                  {Index = 'mega_manectite', Amount = 0, Price = 10000},
-                  {Index = 'mega_mawilite', Amount = 0, Price = 10000},
-                  {Index = 'mega_medichamite', Amount = 0, Price = 10000},
-                  {Index = 'mega_metagrossite', Amount = 0, Price = 10000},
-                  {Index = 'mega_pidgeotite', Amount = 0, Price = 10000},
-                  {Index = 'mega_pinsirite', Amount = 0, Price = 10000},
-                  {Index = 'mega_sablenite', Amount = 0, Price = 10000},
-                  {Index = 'mega_salamencite', Amount = 0, Price = 10000},
-                  {Index = 'mega_sceptilite', Amount = 0, Price = 10000},
-                  {Index = 'mega_scizorite', Amount = 0, Price = 10000},
-                  {Index = 'mega_sharpedonite', Amount = 0, Price = 10000},
-                  {Index = 'mega_slowbronite', Amount = 0, Price = 10000},
-                  {Index = 'mega_steelixite', Amount = 0, Price = 10000},
-                  {Index = 'mega_swampertite', Amount = 0, Price = 10000},
-                  {Index = 'mega_tyranitarite', Amount = 0, Price = 10000},
-                  {Index = 'mega_venusaurite', Amount = 0, Price = 10000}} --they're not adding more of these until z-a anyway
+  local stones = {{Index = 'mega_abomasite', Amount = 0, Price = 10000, Monster = "abomasnow", formIndex = 1},
+                  {Index = 'mega_absolite', Amount = 0, Price = 10000, Monster = "absol", formIndex = 1},
+                  {Index = 'mega_aerodactylite', Amount = 0, Price = 10000, Monster = "aerodactyl", formIndex = 1},
+                  {Index = 'mega_aggronite', Amount = 0, Price = 10000, Monster = "aggron", formIndex = 1},
+                  {Index = 'mega_alakazite', Amount = 0, Price = 10000, Monster = "alakazam", formIndex = 1},
+                  {Index = 'mega_altarianite', Amount = 0, Price = 10000, Monster = "altaria", formIndex = 1},
+                  {Index = 'mega_ampharosite', Amount = 0, Price = 10000, Monster = "ampharos", formIndex = 1},
+                  {Index = 'mega_audinite', Amount = 0, Price = 10000, Monster = "audino", formIndex = 1},
+                  {Index = 'mega_banettite', Amount = 0, Price = 10000, Monster = "banette", formIndex = 1},
+                  {Index = 'mega_beedrillite', Amount = 0, Price = 10000, Monster = "beedrill", formIndex = 1},
+                  {Index = 'mega_blastoisinite', Amount = 0, Price = 10000, Monster = "blastoise", formIndex = 1},
+                  {Index = 'mega_blazikenite', Amount = 0, Price = 10000, Monster = "blaziken", formIndex = 1},
+                  {Index = 'mega_cameruptite', Amount = 0, Price = 10000, Monster = "camerupt", formIndex = 1},
+                  {Index = 'mega_charizardite_x', Amount = 0, Price = 10000, Monster = "charizard", formIndex = 1},
+                  {Index = 'mega_charizardite_y', Amount = 0, Price = 10000, Monster = "charizard", formIndex = 2},
+                  {Index = 'mega_galladite', Amount = 0, Price = 10000, Monster = "gallade", formIndex = 1},
+                  {Index = 'mega_garchompite', Amount = 0, Price = 10000, Monster = "garchomp", formIndex = 1},
+                  {Index = 'mega_gardevoirite', Amount = 0, Price = 10000, Monster = "gardevoir", formIndex = 1},
+                  {Index = 'mega_gengarite', Amount = 0, Price = 10000, Monster = "gengar", formIndex = 1},
+                  {Index = 'mega_glalitite', Amount = 0, Price = 10000, Monster = "glalie", formIndex = 1},
+                  {Index = 'mega_gyaradosite', Amount = 0, Price = 10000, Monster = "gyarados", formIndex = 1},
+                  {Index = 'mega_heracronite', Amount = 0, Price = 10000, Monster = "heracross", formIndex = 1},
+                  {Index = 'mega_houndoominite', Amount = 0, Price = 10000, Monster = "houndoom", formIndex = 1},
+                  {Index = 'mega_kangaskhanite', Amount = 0, Price = 10000, Monster = "kangaskhan", formIndex = 1},
+                  {Index = 'mega_lopunnite', Amount = 0, Price = 10000, Monster = "lopunny", formIndex = 1},
+                  {Index = 'mega_lucarionite', Amount = 0, Price = 10000, Monster = "lucario", formIndex = 1},
+                  {Index = 'mega_manectite', Amount = 0, Price = 10000, Monster = "manectric", formIndex = 1},
+                  {Index = 'mega_mawilite', Amount = 0, Price = 10000, Monster = "mawile", formIndex = 1},
+                  {Index = 'mega_medichamite', Amount = 0, Price = 10000, Monster = "medicham", formIndex = 1},
+                  {Index = 'mega_metagrossite', Amount = 0, Price = 10000, Monster = "metagross", formIndex = 1},
+                  {Index = 'mega_pidgeotite', Amount = 0, Price = 10000, Monster = "pidgeot", formIndex = 1},
+                  {Index = 'mega_pinsirite', Amount = 0, Price = 10000, Monster = "pinsir", formIndex = 1},
+                  {Index = 'mega_sablenite', Amount = 0, Price = 10000, Monster = "sableye", formIndex = 1},
+                  {Index = 'mega_salamencite', Amount = 0, Price = 10000, Monster = "salamence", formIndex = 1},
+                  {Index = 'mega_sceptilite', Amount = 0, Price = 10000, Monster = "sceptile", formIndex = 1},
+                  {Index = 'mega_scizorite', Amount = 0, Price = 10000, Monster = "scizor", formIndex = 1},
+                  {Index = 'mega_sharpedonite', Amount = 0, Price = 10000, Monster = "sharpedo", formIndex = 1},
+                  {Index = 'mega_slowbronite', Amount = 0, Price = 10000, Monster = "slowbro", formIndex = 1},
+                  {Index = 'mega_steelixite', Amount = 0, Price = 10000, Monster = "steelix", formIndex = 1},
+                  {Index = 'mega_swampertite', Amount = 0, Price = 10000, Monster = "swampert", formIndex = 1},
+                  {Index = 'mega_tyranitarite', Amount = 0, Price = 10000, Monster = "tyranitar", formIndex = 1},
+                  {Index = 'mega_venusaurite', Amount = 0, Price = 10000, Monster = "venusaur", formIndex = 1}} --they're not adding more of these until z-a anyway
+  ---add stones
   for ii = 1, #stones, 1 do
     local base_data = stones[ii]
     local item_data = { Item = RogueEssence.Dungeon.InvItem(base_data.Index, false, base_data.Amount), Price = base_data.Price }
-    if _DATA:GetItem(base_data.Index).Released then
+    local formData = _DATA:GetMonster(base_data.Monster).Forms[base_data.formIndex]
+    if formData.Released then
       table.insert(catalog, item_data)
     end
   end
---[[   --special stones (order is important!)
-  local special_stones = {{Index = 'mega_delta_meteorite', Amount = 0, Price = 100000},
-                          --{Index = 'mega_mewtwonite_x', Amount = 0, Price = 100000}, --not available yet
-                          {Index = 'mega_mewtwonite_y', Amount = 0, Price = 100000},
-                          {Index = 'mega_latiosite', Amount = 0, Price = 100000},
-                          {Index = 'mega_latiasite', Amount = 0, Price = 100000},
-                          {Index = 'mega_diancite', Amount = 0, Price = 100000}}
-  ---assembly lookup
-  local assembly = GAME:GetPlayerAssemblyTable()
+  --special stones
+  local special_stones = {{Index = 'mega_delta_meteorite', Amount = 0, Price = 100000, Monster = "rayquaza", formIndex = 1},
+                          --{Index = 'mega_mewtwonite_x', Amount = 0, Price = 100000, Monster = "mewtwo", formIndex = 1}, --not available yet
+                          {Index = 'mega_mewtwonite_y', Amount = 0, Price = 100000, Monster = "mewtwo", formIndex = 2},
+                          {Index = 'mega_latiosite', Amount = 0, Price = 100000, Monster = "latios", formIndex = 1},
+                          {Index = 'mega_latiasite', Amount = 0, Price = 100000, Monster = "latias", formIndex = 1},
+                          {Index = 'mega_diancite', Amount = 0, Price = 100000, Monster = "diancie", formIndex = 1}}
   ---add stones
   for ii = 1, #special_stones, 1 do
-    local base_data = stones[ii]
+    local base_data = special_stones[ii]
     local item_data = { Item = RogueEssence.Dungeon.InvItem(base_data.Index, false, base_data.Amount), Price = base_data.Price }
-    if _DATA:GetItem(base_data.Index).Released then
-      table.insert(catalog, item_data)
+    local unlocked = string.find(tostring(_DATA.Save:GetMonsterUnlock(base_data.Monster)), "2")
+    local formData = _DATA:GetMonster(base_data.Monster).Forms[base_data.formIndex]
+    if unlocked ~= nil then
+      if formData.Released then
+        table.insert(catalog, item_data)
+      end
     end
-  end ]]
+  end
 
   local chara = CH('NPC_Shady')
   local player = CH('PLAYER')
