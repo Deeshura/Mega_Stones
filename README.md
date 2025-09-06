@@ -16,7 +16,7 @@ Thanks to Trio- for translating FormChoiceEvent's C# script for calling CancelSt
 
 Thanks to FlowerSnek, Palika, and Sh\*tpost Sunkern for valuable feedback on a cutscene.
 
-Thanks to MistressNebula for helping work out a system for devolving the player between floors.
+Thanks to MistressNebula for helping work out a system for devolving the player between floors, as well as pointing me in the right direction for scripting systems to check which Mega Evolutions are available and in the players Pokedex.
 
 This project is an addon mod for [PMDO](https://github.com/audinowho/PMDODump). PMDO is Copyright (c) Audino 2021.
 
